@@ -33,11 +33,12 @@ const About: FC = () => (
           <Strong>transição de carreira</Strong>.
           <br />
           <br />
-          No momento, atuo como <Strong>Freelancer</Strong> e{" "}
-          <Strong>contribuo</Strong> significativamente na{" "}
-          <Strong>InnovFlow</Strong>, uma <Strong>startup</Strong> do
-          ecossistema <Strong>CerradoTech</Strong>. Onde tenho tido a
-          oportunidade de colaborar em <Strong>projetos visionários</Strong>.
+          Desde 2023, <Strong>faço parte</Strong> do time de desenvolvedores da{" "}
+          <Strong> Kothe S.A</Strong> e também <Strong>contribuo</Strong>{" "}
+          significativamente na <Strong>InnovFlow</Strong>, uma{" "}
+          <Strong>startup</Strong> do ecossistema <Strong>CerradoTech</Strong>.
+          Onde tenho tido a oportunidade de colaborar em{" "}
+          <Strong>projetos visionários</Strong>.
           <br />
           <Button onClick={handleCvDownload}>
             <FilePdf size={25} />
