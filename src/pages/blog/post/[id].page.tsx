@@ -14,7 +14,7 @@ const Post: FC<CurrentPostType> = ({ post }) => {
     "@type": "BlogPosting",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://raimones.vercel.app/blog/post/${query.id}`,
+      "@id": `https://www.portfolio.raimones.dev/blog/post/${query.id}`,
     },
     headline: `${post.title}`,
     description: `${post.body.slice(150, 500)}`,

@@ -1,6 +1,6 @@
 import { FC, useEffect } from "react";
 import { NextSeo, observer } from "~/modules";
-import { SEOMain, useStores } from "~/utils";
+import { JsonLd, SEOMain, useStores } from "~/utils";
 import { BackToTop, Footer, Header } from "../components";
 import { About, Contact, Showcase, Skills } from "./components";
 import Projects from "./components/projects";
@@ -22,6 +22,7 @@ const Home: FC = () => {
 
   return (
     <HomeContainer>
+      <JsonLd />
       <NextSeo {...SEOMain} />
       <Header />
       <Showcase />

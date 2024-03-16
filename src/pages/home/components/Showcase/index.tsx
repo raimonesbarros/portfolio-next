@@ -26,7 +26,7 @@ const Showcase: FC = () => {
 
   return (
     <ShowcaseSection id="showcase">
-      <MainTitle>Portfólio de desenvolvimento front-end</MainTitle>
+      <MainTitle>Portfólio de desenvolvedor front-end</MainTitle>
       <ShowcaseContainer $light={theme === "light"} $top={scrollY < 100}>
         <BgImage
           src={dummy}
