@@ -1,6 +1,7 @@
 import { FC, useEffect, useState } from "react";
 import { AppProps } from "next/app";
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react";
 import { GlobalStyle, defaultTheme, lightTheme, store } from "~/core";
 import { Provider, ThemeProvider, observer } from "~/modules";
 
@@ -26,6 +27,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
         />
         <meta name="author" content="Raimones Barros" />
       </Head>
+      <Analytics />
       <Provider rootStore={store}>
         <ThemeProvider theme={theme === "light" ? lightTheme : defaultTheme}>
           <GlobalStyle />
