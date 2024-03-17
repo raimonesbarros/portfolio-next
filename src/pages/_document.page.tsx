@@ -52,7 +52,7 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&family=Roboto:wght@100;400;700&display=swap"
             rel="stylesheet"
           />
-          <meta name="theme-color" content="#45C7AF" />
+          <meta name="theme-color" content="#45C7AF00" />
           <link
             rel="apple-touch-icon"
             sizes="180x180"
