@@ -19,6 +19,10 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
     <>
       <Head>
         <meta
+          name="google-site-verification"
+          content="47xFdWcdxe0gqBf9ueCXV_Uvy6-y_mctaSnwQhItYEo"
+        />
+        <meta
           name="keywords"
           content="Desenvolvedor front-end, frontend developer, criar site, desenvolvimento e programação, aprenda a programar, portfólio de desenvolvedor"
         />
