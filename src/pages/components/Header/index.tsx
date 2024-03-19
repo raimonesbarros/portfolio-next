@@ -104,7 +104,7 @@ const Header: FC = () => {
             )}
           </Socials>
         </Navbar>
-        <BtnMenu>
+        <BtnMenu aria-label="Menu">
           {menuIsOpen ? (
             <X size={50} weight="bold" onClick={() => setMenuIsOpen(false)} />
           ) : (

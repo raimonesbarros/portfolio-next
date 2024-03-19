@@ -6,6 +6,8 @@ import Document, {
   Main,
   NextScript,
 } from "next/document";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { ServerStyleSheet } from "~/modules";
 import { JsonLd } from "~/utils";
 
@@ -68,6 +70,8 @@ export default class MyDocument extends Document {
           <link rel="manifest" href="/manifest.json" />
         </Head>
         <body>
+          <Analytics mode="production" />
+          <SpeedInsights />
           <Main />
           <NextScript />
         </body>

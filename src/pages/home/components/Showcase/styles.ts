@@ -59,7 +59,9 @@ export const ShowcaseContainer = styled.div<Props>`
   }
 `;
 
-export const BgImage = styled(NextImage).attrs({ width: 600, height: 600 })``;
+export const BgImage = styled(NextImage).attrs({ width: 619, height: 768 })`
+  aspect-ratio: 619 / 728;
+`;
 
 export const Text = styled.p`
   height: 2.2rem;

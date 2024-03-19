@@ -41,10 +41,13 @@ export const AboutContainer = styled.div`
 `;
 
 export const BgImage = styled(NextImage).attrs({
-  width: 400,
+  width: 390,
+  height: 692,
 })`
+  aspect-ratio: 390 / 692;
   @media screen and (width < 468px) {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
   }
 `;
 

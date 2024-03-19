@@ -84,7 +84,7 @@ export const Button = styled.button`
 
   font-weight: bold;
 
-  color: #eeeeee;
+  color: ${(p) => p.theme.gray100};
   background-color: ${(p) => p.theme.primary};
 
   &:disabled {
